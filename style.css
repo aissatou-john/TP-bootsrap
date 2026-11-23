@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HEADER */
+
+.entete{
+    background-image:url("Sénégal\ 🇸🇳.jpg");
+    background-size:cover;
+    background-position:center;
+    min-height:600px;
+    position:relative;
+    
+}
+
+.entete::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.15);
+}
+
+.navbar,
+.entete-content{
+    position:relative;
+    z-index:2;
+}
+
+.navbar{
+    padding:15px 0;
+    background-color: #0d4eb3;
+}
+
+.nav-link{
+    margin-left:15px;
+    font-size:18px;
+}
+
+.entete-content{
+    height:500px;
+    display:flex;
+    align-items:center;
+}
+
+.entete-box{
+    max-width:700px;
+    background:rgba(0,0,0,0.55);
+    color:white;
+    padding:40px;
+    border-radius:12px;
+}
+
+.entete-box h1{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.entete-box p{
+    font-size:1.5rem;
+}
+
+/* CARTES */
+
+.card{
+    border:none;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card-dakar{
+    background:#eaf7ec;
+}
+
+.card-lac{
+    background:#eef4ff;
+}
+
+.card-casamance{
+    background:#fff8e7;
+}
+
+.card-dakar h2{
+    color:#0f6a3d;
+}
+
+.card-lac h2{
+    color:#0d4eb3;
+}
+
+.card-casamance h2{
+    color:#8d6200;
+}
+
+/* ATOUTS */
+
+.atouts{
+    background:#f3f5f8;
+}
+
+.icone{
+    width:90px;
+    height:90px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.bleu{
+    background:#dbeafe;
+}
+
+.vert{
+    background:#dcfce7;
+}
+
+.jaune{
+    background:#fef3c7;
+}
+
+footer{
+    background:#11243f;
+    color:white;
+    padding:20px 0;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.social i{
+    margin-left:20px;
+    font-size:24px;
+    cursor:pointer;
+}
